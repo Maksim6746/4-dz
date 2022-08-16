@@ -8,13 +8,14 @@
 import UIKit
 
 final class LoginViewController: UIViewController {
-
+// MARK: - Outlets
     @IBOutlet var passwordTextField: UITextField!
     @IBOutlet var loginTextField: UITextField!
     
     private let user = "User"
     private let password = "Password"
     
+//MARK: - OverFunc
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let welcomeVC = segue.destination as? WelcomeViewController
         else { return }
@@ -26,6 +27,7 @@ final class LoginViewController: UIViewController {
         view.endEditing(true)
     }
     
+//MARK: - Actions
     @IBAction func loginPressed() {
         guard loginTextField.text == user, passwordTextField.text == password else {
             showAlert(title: "Invavid login or password",
@@ -47,7 +49,8 @@ final class LoginViewController: UIViewController {
         loginTextField.text = ""
         passwordTextField.text = ""
     }
-    
+   
+//MARK: - Private Func
     private func showAlert(title: String, message: String, textField: UITextField? = nil) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default) { _ in
