@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E3DD06328AD427500E58456 /* Qestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DD06228AD427500E58456 /* Qestion.swift */; };
+		9E3DD06328AD427500E58456 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DD06228AD427500E58456 /* Person.swift */; };
 		9E3DD06728AD4A8100E58456 /* InfoUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DD06628AD4A8100E58456 /* InfoUserViewController.swift */; };
 		9EF96D6A28AA7DCF0063953B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF96D6928AA7DCF0063953B /* AppDelegate.swift */; };
 		9EF96D6C28AA7DCF0063953B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF96D6B28AA7DCF0063953B /* SceneDelegate.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E3DD06228AD427500E58456 /* Qestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qestion.swift; sourceTree = "<group>"; };
+		9E3DD06228AD427500E58456 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9E3DD06628AD4A8100E58456 /* InfoUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUserViewController.swift; sourceTree = "<group>"; };
 		9EF96D6628AA7DCF0063953B /* 4 dz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4 dz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF96D6928AA7DCF0063953B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		9E3DD05F28AD41C700E58456 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9E3DD06228AD427500E58456 /* Qestion.swift */,
+				9E3DD06228AD427500E58456 /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 			files = (
 				9EF96D8228AA9CE60063953B /* LoginViewController.swift in Sources */,
 				9EF96D7E28AA91860063953B /* WelcomeViewController.swift in Sources */,
-				9E3DD06328AD427500E58456 /* Qestion.swift in Sources */,
+				9E3DD06328AD427500E58456 /* Person.swift in Sources */,
 				9E3DD06728AD4A8100E58456 /* InfoUserViewController.swift in Sources */,
 				9EF96D6A28AA7DCF0063953B /* AppDelegate.swift in Sources */,
 				9EF96D6C28AA7DCF0063953B /* SceneDelegate.swift in Sources */,
