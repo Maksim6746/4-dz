@@ -18,10 +18,12 @@ struct User {
              password: "1",
              person: Person(name: "Max",
                             surname: "Migranov",
-                            patronymic: "Эдуардович",
-                            age: "22")
+                            patronymic: "Eduardovich",
+                            age: "23"
+                           )
         )
     }
+    
 }
 
 struct Person {
@@ -29,7 +31,6 @@ struct Person {
     var surname: String
     var patronymic: String
     var age: String
-    
     var fullName: String {
         "\(name) \(surname)"
     }

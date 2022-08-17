@@ -13,6 +13,7 @@ final class InfoUserViewController: UIViewController {
     
     @IBOutlet var ageUser: UITextField!
     @IBOutlet var patronymicUser: UITextField!
+    @IBOutlet var datePicker: UIDatePicker!
     var user = User.getUser()
     
     //MARK: - Override Func
@@ -24,10 +25,11 @@ final class InfoUserViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameUser.text = user.person.name
-        surnameUser.text = user.person.surname
-        patronymicUser.text = user.person.patronymic
-        ageUser.text = user.person.age
+        
+        nameUser?.text = user.person.name
+        surnameUser?.text = user.person.surname
+        patronymicUser?.text = user.person.patronymic
+        ageUser?.text = user.person.age
         
         view.addVerticalGradientLayerr(topColor: secondaryColor,
                                        bottomColor: primaryColor)
