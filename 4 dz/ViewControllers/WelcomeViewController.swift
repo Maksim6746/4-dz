@@ -7,11 +7,13 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
-
+final class WelcomeViewController: UIViewController {
+   
+    //MARK: - Outlet
     @IBOutlet var nameUser: UILabel!
     
-    var user = ""
+    //MARK: - Private Let and Var
+    private var user = User.getUser()
     
     private let primaryColor = UIColor(red: 210/255,
                                        green: 109/255,
@@ -24,13 +26,14 @@ class WelcomeViewController: UIViewController {
                                          alpha: 1
     )
     
+//MARK: - Override Func
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
-        nameUser.text = "Welcome, \(user)!"
+        view.addVerticalGradientLayer(topColor: secondaryColor, bottomColor: primaryColor)
+        nameUser.text = "Welcome, \(user.login)!"
     }
 }
-
+//MARK: - Extansion
 extension UIView {
     func addVerticalGradientLayer(topColor: UIColor, bottomColor: UIColor) {
         let gradient = CAGradientLayer()
