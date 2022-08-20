@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E3DD06328AD427500E58456 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DD06228AD427500E58456 /* Person.swift */; };
+		9E0CCDDC28B12E2100D6BDF7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDDB28B12E2100D6BDF7 /* TabBarViewController.swift */; };
+		9E0CCDDE28B12F7200D6BDF7 /* InfoAdditionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDDD28B12F7200D6BDF7 /* InfoAdditionalViewController.swift */; };
+		9E0CCDE128B130BB00D6BDF7 /* Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDE028B130BB00D6BDF7 /* Extansion.swift */; };
+		9E0CCDE328B13AE200D6BDF7 /* ZodiacSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDE228B13AE200D6BDF7 /* ZodiacSignViewController.swift */; };
+		9E3DD06328AD427500E58456 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DD06228AD427500E58456 /* User.swift */; };
 		9E3DD06728AD4A8100E58456 /* InfoUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3DD06628AD4A8100E58456 /* InfoUserViewController.swift */; };
 		9EF96D6A28AA7DCF0063953B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF96D6928AA7DCF0063953B /* AppDelegate.swift */; };
 		9EF96D6C28AA7DCF0063953B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF96D6B28AA7DCF0063953B /* SceneDelegate.swift */; };
@@ -19,7 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E3DD06228AD427500E58456 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9E0CCDDB28B12E2100D6BDF7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9E0CCDDD28B12F7200D6BDF7 /* InfoAdditionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAdditionalViewController.swift; sourceTree = "<group>"; };
+		9E0CCDE028B130BB00D6BDF7 /* Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extansion.swift; sourceTree = "<group>"; };
+		9E0CCDE228B13AE200D6BDF7 /* ZodiacSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignViewController.swift; sourceTree = "<group>"; };
+		9E3DD06228AD427500E58456 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9E3DD06628AD4A8100E58456 /* InfoUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUserViewController.swift; sourceTree = "<group>"; };
 		9EF96D6628AA7DCF0063953B /* 4 dz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4 dz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF96D6928AA7DCF0063953B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E0CCDDF28B1305200D6BDF7 /* Extansion */ = {
+			isa = PBXGroup;
+			children = (
+				9E0CCDE028B130BB00D6BDF7 /* Extansion.swift */,
+			);
+			path = Extansion;
+			sourceTree = "<group>";
+		};
 		9E3DD05B28AD40B100E58456 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				9EF96D8128AA9CE60063953B /* LoginViewController.swift */,
+				9E0CCDDB28B12E2100D6BDF7 /* TabBarViewController.swift */,
 				9EF96D7D28AA91860063953B /* WelcomeViewController.swift */,
 				9E3DD06628AD4A8100E58456 /* InfoUserViewController.swift */,
+				9E0CCDDD28B12F7200D6BDF7 /* InfoAdditionalViewController.swift */,
+				9E0CCDE228B13AE200D6BDF7 /* ZodiacSignViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -74,7 +93,7 @@
 		9E3DD05F28AD41C700E58456 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9E3DD06228AD427500E58456 /* Person.swift */,
+				9E3DD06228AD427500E58456 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +120,7 @@
 				9E3DD05D28AD412D00E58456 /* SupportFiles */,
 				9E3DD05F28AD41C700E58456 /* Models */,
 				9E3DD05C28AD40F100E58456 /* ViewControllers */,
+				9E0CCDDF28B1305200D6BDF7 /* Extansion */,
 				9E3DD05B28AD40B100E58456 /* Storyboards */,
 				9EF96D7228AA7DD20063953B /* Assets.xcassets */,
 				9EF96D7728AA7DD20063953B /* Info.plist */,
@@ -181,9 +201,13 @@
 			files = (
 				9EF96D8228AA9CE60063953B /* LoginViewController.swift in Sources */,
 				9EF96D7E28AA91860063953B /* WelcomeViewController.swift in Sources */,
-				9E3DD06328AD427500E58456 /* Person.swift in Sources */,
+				9E3DD06328AD427500E58456 /* User.swift in Sources */,
+				9E0CCDE328B13AE200D6BDF7 /* ZodiacSignViewController.swift in Sources */,
+				9E0CCDE128B130BB00D6BDF7 /* Extansion.swift in Sources */,
 				9E3DD06728AD4A8100E58456 /* InfoUserViewController.swift in Sources */,
+				9E0CCDDC28B12E2100D6BDF7 /* TabBarViewController.swift in Sources */,
 				9EF96D6A28AA7DCF0063953B /* AppDelegate.swift in Sources */,
+				9E0CCDDE28B12F7200D6BDF7 /* InfoAdditionalViewController.swift in Sources */,
 				9EF96D6C28AA7DCF0063953B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

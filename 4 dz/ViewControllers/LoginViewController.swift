@@ -22,6 +22,21 @@ final class LoginViewController: UIViewController {
         view.endEditing(true)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let tabBarControllers = segue.destination as? UITabBarController else { return }
+        guard let viewControllers = tabBarControllers.viewControllers else { return }
+        
+        viewControllers.forEach { viewControllers in
+            if let welcomeVC = viewControllers as? WelcomeViewController {
+                welcomeVC.user = user
+            } else if let navigationVC = viewControllers as? UINavigationController {
+                guard let userInfoVC = navigationVC.topViewController as? InfoUserViewController
+                else { return }
+                userInfoVC.user = user
+            }
+        }
+    }
+    
 //MARK: - Actions Func
     @IBAction func loginPressed() {
         guard loginTextField.text == user.login, passwordTextField.text == user.password else {
