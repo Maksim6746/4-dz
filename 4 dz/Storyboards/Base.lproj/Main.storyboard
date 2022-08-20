@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="1442" y="65"/>
         </scene>
-        <!--Max Migranov-->
+        <!--Maxim Migranov-->
         <scene sceneID="wPQ-8M-o5l">
             <objects>
                 <viewController id="PaR-L0-fMG" customClass="InfoUserViewController" customModule="__dz" customModuleProvider="target" sceneMemberID="viewController">
@@ -263,10 +263,8 @@
                             <constraint firstItem="rnu-fa-udb" firstAttribute="trailing" secondItem="j9d-hY-z4Q" secondAttribute="trailing" constant="111" id="sAu-pd-Zv1"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Max Migranov" image="person.fill" catalog="system" id="eCc-Yg-kkb"/>
-                    <navigationItem key="navigationItem" id="6Lt-gw-utO">
-                        <barButtonItem key="rightBarButtonItem" title="Био" id="ODX-cD-Rjk"/>
-                    </navigationItem>
+                    <tabBarItem key="tabBarItem" title="Maxim Migranov" image="person.fill" catalog="system" id="eCc-Yg-kkb"/>
+                    <navigationItem key="navigationItem" id="6Lt-gw-utO"/>
                     <connections>
                         <outlet property="ageUser" destination="1nt-1Z-q50" id="ejD-qu-5uT"/>
                         <outlet property="datePicker" destination="kIu-Sz-3s0" id="8Bg-BX-zIr"/>
@@ -279,10 +277,10 @@
             </objects>
             <point key="canvasLocation" x="1439.2" y="824.43778110944538"/>
         </scene>
-        <!--Cont-->
+        <!--Info Additional View Controller-->
         <scene sceneID="cyQ-ap-z0g">
             <objects>
-                <viewController id="N8P-t2-ofT" customClass="Cont" sceneMemberID="viewController">
+                <viewController id="N8P-t2-ofT" customClass="InfoAdditionalViewController" customModule="__dz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LTL-2p-bHS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -346,8 +344,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="1pm-KJ-xbm"/>
                     <connections>
-                        <outlet property="d" destination="8UR-sx-PsN" id="I7a-H2-yDt"/>
-                        <outlet property="mailAdditional" destination="ya2-oR-maB" id="ayW-cq-TNP"/>
+                        <outlet property="mailAdditional" destination="ya2-oR-maB" id="7P7-ns-zNr"/>
+                        <outlet property="mailUser" destination="dep-Hb-Oww" id="pZF-Jg-dCi"/>
+                        <outlet property="phoneUser" destination="8UR-sx-PsN" id="c6P-lu-xO8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fB-tR-xlW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -401,11 +400,11 @@
             </objects>
             <point key="canvasLocation" x="736.79999999999995" y="65.217391304347828"/>
         </scene>
-        <!--Max Migranov-->
+        <!--Maxim Migranov-->
         <scene sceneID="Ajy-EZ-nd7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qfa-cY-HdT" customClass="User" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Max Migranov" image="person.fill" catalog="system" id="noe-Ux-CB2"/>
+                    <tabBarItem key="tabBarItem" title="Maxim Migranov" image="person.fill" catalog="system" id="noe-Ux-CB2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LGa-n4-s7M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

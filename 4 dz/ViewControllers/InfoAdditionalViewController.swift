@@ -11,10 +11,12 @@ class InfoAdditionalViewController: UIViewController {
     
     var user: User!
     
-//MARK: - IBOutlet
+    //MARK: - IBOutlet
+    
     @IBOutlet var phoneUser: UITextField!
     @IBOutlet var mailUser: UITextField!
     @IBOutlet var mailAdditional: UITextField!
+    
     
     
     //MARK: - Override Func
@@ -27,11 +29,11 @@ class InfoAdditionalViewController: UIViewController {
         super.viewDidLoad()
         
         view.addVerticalGradientLayer()
-
+        
         phoneUser.text = user.person.userPhone
         mailUser.text = user.person.userMail
         mailAdditional.text = user.person.additionalMail
         
     }
-
+    
 }

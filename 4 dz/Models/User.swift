@@ -36,10 +36,10 @@ struct Person {
     
     
     static func getPerson() -> Person {
-        Person(name: "Max", surname: "Migranov",
+        Person(name: "Maxim", surname: "Migranov",
                patronymic: "Eduardovich",
                age: "23",
-               userPhone: "79518142455",
+               userPhone: "12345",
                userMail: "max@mail.ru",
                additionalMail: "migranov@mail.ru"
         )
