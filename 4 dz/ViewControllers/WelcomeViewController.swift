@@ -8,14 +8,14 @@
 import UIKit
 
 final class WelcomeViewController: UIViewController {
-   
+    
     //MARK: - Outlet
     @IBOutlet var nameUser: UILabel!
     
     //MARK: - Private Let and Var
     var user: User!
     
-//MARK: - Override Func
+    //MARK: - Override Func
     override func viewDidLoad() {
         super.viewDidLoad()
         

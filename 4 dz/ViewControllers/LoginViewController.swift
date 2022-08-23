@@ -9,12 +9,13 @@ import UIKit
 
 final class LoginViewController: UIViewController {
     
-    private let user = User.getUser()
-    
 // MARK: - Outlets
     @IBOutlet var passwordTextField: UITextField!
     @IBOutlet var loginTextField: UITextField!
     
+//MARK: - Private Let
+    
+    private let user = User.getUser()
     
 //MARK: - Override Func
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

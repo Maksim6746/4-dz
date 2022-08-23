@@ -9,8 +9,6 @@ import UIKit
 
 final class InfoUserViewController: UIViewController {
    
-    var user: User!
-    
     //MARK: -IBOutlet
     @IBOutlet var nameUser: UITextField!
     @IBOutlet var surnameUser: UITextField!
@@ -19,7 +17,10 @@ final class InfoUserViewController: UIViewController {
     @IBOutlet var patronymicUser: UITextField!
     @IBOutlet var datePicker: UIDatePicker!
     
+    //MARK: - Private Let
     
+    var user: User!
+
     //MARK: - Override Func
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)

@@ -9,15 +9,15 @@ import UIKit
 
 class InfoAdditionalViewController: UIViewController {
     
-    var user: User!
-    
     //MARK: - IBOutlet
     
     @IBOutlet var phoneUser: UITextField!
     @IBOutlet var mailUser: UITextField!
     @IBOutlet var mailAdditional: UITextField!
     
+    //MARK: - Private Let
     
+    var user: User!
     
     //MARK: - Override Func
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

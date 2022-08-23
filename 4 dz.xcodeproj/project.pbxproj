@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E0CCDDC28B12E2100D6BDF7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDDB28B12E2100D6BDF7 /* TabBarViewController.swift */; };
 		9E0CCDDE28B12F7200D6BDF7 /* InfoAdditionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDDD28B12F7200D6BDF7 /* InfoAdditionalViewController.swift */; };
 		9E0CCDE128B130BB00D6BDF7 /* Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDE028B130BB00D6BDF7 /* Extansion.swift */; };
 		9E0CCDE328B13AE200D6BDF7 /* ZodiacSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CCDE228B13AE200D6BDF7 /* ZodiacSignViewController.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E0CCDDB28B12E2100D6BDF7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		9E0CCDDD28B12F7200D6BDF7 /* InfoAdditionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAdditionalViewController.swift; sourceTree = "<group>"; };
 		9E0CCDE028B130BB00D6BDF7 /* Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extansion.swift; sourceTree = "<group>"; };
 		9E0CCDE228B13AE200D6BDF7 /* ZodiacSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				9EF96D8128AA9CE60063953B /* LoginViewController.swift */,
-				9E0CCDDB28B12E2100D6BDF7 /* TabBarViewController.swift */,
 				9EF96D7D28AA91860063953B /* WelcomeViewController.swift */,
 				9E3DD06628AD4A8100E58456 /* InfoUserViewController.swift */,
 				9E0CCDDD28B12F7200D6BDF7 /* InfoAdditionalViewController.swift */,
@@ -205,7 +202,6 @@
 				9E0CCDE328B13AE200D6BDF7 /* ZodiacSignViewController.swift in Sources */,
 				9E0CCDE128B130BB00D6BDF7 /* Extansion.swift in Sources */,
 				9E3DD06728AD4A8100E58456 /* InfoUserViewController.swift in Sources */,
-				9E0CCDDC28B12E2100D6BDF7 /* TabBarViewController.swift in Sources */,
 				9EF96D6A28AA7DCF0063953B /* AppDelegate.swift in Sources */,
 				9E0CCDDE28B12F7200D6BDF7 /* InfoAdditionalViewController.swift in Sources */,
 				9EF96D6C28AA7DCF0063953B /* SceneDelegate.swift in Sources */,

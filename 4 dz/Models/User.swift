@@ -28,12 +28,12 @@ struct Person {
     var surname: String
     var patronymic: String
     var age: String
-    var fullName: String {
-        "\(name) \(surname)"}
     var userPhone: String
     var userMail: String
     var additionalMail: String
     
+    var fullName: String {
+        "\(name) \(surname)"}
     
     static func getPerson() -> Person {
         Person(name: "Maxim", surname: "Migranov",
